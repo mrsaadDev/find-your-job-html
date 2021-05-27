@@ -1,8 +1,14 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     font-family: "Fira Sans", sans-serif;
     font-size: 16px;
     color: #111238;
+}
+.header {
+    background: #F2F3F6;
 }
 .menu {
     list-style: none;
@@ -19,6 +25,8 @@ body {
 .button {
     text-decoration: none;
     display: inline-block;
+    border: none;
+    font-size: 16px;
 }
 .button-link {
     color: #111238;
@@ -30,4 +38,209 @@ body {
     border-radius: 5px;
     padding: 15px 30px 15px 30px;
     color: #fff;
+}
+.hero-title {
+    font-size: 44px;
+    line-height: 53px;
+    margin-bottom: 15px;
+    margin-top: 43px;
+}
+.hero-text {
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+.input-group {
+    background-color: #fff;
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.input {
+    background-color: white;
+    border: none;
+    flex-grow: 1;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 15px;
+}
+.search-icon {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.search-text {
+    vertical-align: middle;
+}
+.input:focus {
+    outline: 1px solid;
+}
+.tags-group {
+    padding-left: 15px;
+    color: #b2b2b2;
+    font-size: 14px;
+    line-height: 17px;
+}
+.tags-label {
+    margin-right: 15px;
+}
+.tag {
+    color: #b2b2b2;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.section {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.section-title {
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.card-icon {
+    fill: #111238;
+    margin-bottom: 15px;
+    transition: fill 0.2s;
+}
+.card {
+    text-decoration: none;
+    color: #111238;
+    background: #F2F3F6;
+    border-radius: 10px;
+    padding: 35px;
+    width: 166px;
+    height: 128px;
+    transition: background 0.2s, color 0.2s;
+}
+.card:hover {
+    background: #1A75E8;
+    color: #fff;
+}
+.card:hover .card-icon {
+    fill: #fff;
+}
+.offer {
+    border: 1px solid #C5C9D5;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.offer-image {
+    width: 10px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #F2F3F6;
+}
+.offer-title {
+    margin-left: 20px;
+}
+.offer-heading {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    margin-right: 46px;
+}
+.offer-place {
+    font-size: 14px;
+    line-height: 17px;
+}
+.offer-salary {
+    background: #1A75E8;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-right: 62px;
+    padding: 10px 25px;
+    color: #fff;
+}
+.more {
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A75E8;
+    margin-left: 176px;
+    text-decoration: none;
+}
+.more-vacancy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    width: 193px;
+    height: 49px;
+    left: calc(50% - 193px/2 - 0.5px);
+    top: calc(50% - 49px/2 + 600.5px);
+    background: #1A75E8;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.subscribe {
+    background: #F2F3F6;
+}
+.subscribe-form {
+    max-width: 460px;
+    margin: auto;
+    text-align: center;
+}
+.subscribe-title {
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #111238;
+    margin-bottom: 20px;
+}
+.subscribe-subtitle {
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #111238;
+    margin-bottom: 40px;
+}
+.subscribe-input {
+    background-color: white;
+    border: none;
+    flex-grow: 1;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 90px;
+    padding: 26px 15px 25px 25px;
+}
+.footer-description {
+    font-size: 12px;
+    line-height: 140%;
+    color: #B2B2B2;
+}
+.footer-copyright {
+    font-size: 12px;
+    line-height: 140%;
+    color: #B2B2B2;
+}
+.footer-title {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 15px;
+}
+.footer-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer-list-link {
+    display: block;
+    font-size: 15px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #111238;
+    margin-bottom: 10px;
 }
