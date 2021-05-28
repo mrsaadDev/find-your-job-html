@@ -1,2 +1,4 @@
-# find-your-job-html
-html, css
+# HeadHunter
+glo Academy
+
+прокет выполнил: Веселов Даниил
